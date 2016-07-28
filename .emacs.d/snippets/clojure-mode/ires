@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: om/IRenderState
+# key: ires
+# --
+om/IRenderState
+(render-state [this ${1:state}]
+  $0)

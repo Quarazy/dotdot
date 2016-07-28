@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: (go (loop ..))
+# key: goloop
+# --
+(go (loop [${1:}]
+  $0))

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: om/IDidMount
+# key: idid
+# --
+om/IDidMount
+(did-mount [this]
+  $0)

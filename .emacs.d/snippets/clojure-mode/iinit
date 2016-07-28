@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: om/IInit
+# key: iinit
+# --
+om/IInitState
+(init-state [this]
+  $0)

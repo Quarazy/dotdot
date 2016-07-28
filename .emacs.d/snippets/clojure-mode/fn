@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: lambda
+# key: fn
+# --
+(fn [$1] $0)

@@ -1,0 +1,6 @@
+#name : Highlight
+#contributor: Quarazy <quarazy@gmail.com>
+# --
+{% highlight $1 %}
+$0
+{% endhighlight %}

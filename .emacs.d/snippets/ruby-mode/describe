@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: describe
+# key: des
+# group: capybara
+# --
+describe '$1' do
+  $0
+end

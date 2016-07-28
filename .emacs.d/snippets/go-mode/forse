@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# name: for { select {....}
+# key: forse
+# --
+for {
+      select {
+      $0
+      }
+}

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: #js {:className ..}
+# key: cname
+# --
+#js {:className $1}

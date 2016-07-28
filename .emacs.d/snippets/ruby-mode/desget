@@ -1,0 +1,11 @@
+# -*- mode: snippet -*-
+# name: describe GET
+# key: desget
+# --
+describe '$1' do
+  subject { get :$1 }
+
+  it '$2' do
+    $0
+  end
+end

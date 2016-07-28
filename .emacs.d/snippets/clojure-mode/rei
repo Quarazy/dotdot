@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: reify
+# key: rei
+# --
+(reify
+  $0)

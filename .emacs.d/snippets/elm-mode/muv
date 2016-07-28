@@ -1,0 +1,16 @@
+# -*- mode:snippet -*-
+# name: MODEL UPDATE VIEW
+# key: muv
+# --
+--MODEL
+$0
+
+--UPDATE
+type Action
+
+update : Action -> Model -> Model
+update action model =
+
+--VIEW
+view : Address Action -> Model -> Html
+view address model =

@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: fac
+# key: fac
+# group: capybara
+# --
+factory :$1 do
+  $0
+end

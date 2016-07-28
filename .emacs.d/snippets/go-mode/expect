@@ -1,0 +1,5 @@
+# -*- mode:snippet -*-
+# name: Expect(...)
+# key: Expect
+# --
+Expect($1).To(Equal($2))

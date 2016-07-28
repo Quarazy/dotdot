@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: context
+# key: con
+# group: capybara
+# --
+context '${1:start with with or when}' do
+  $0
+end

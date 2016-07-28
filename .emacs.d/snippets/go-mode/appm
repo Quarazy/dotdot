@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: app.Main()
+# key: appm
+# --
+app.Main(func(a app.App) {
+    $0
+})

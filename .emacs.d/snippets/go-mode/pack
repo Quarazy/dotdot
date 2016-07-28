@@ -1,0 +1,6 @@
+# -*- mode:snippet -*-
+# name: package ...
+# key: pack
+# --
+package ${1:`(first (last (split-string (file-name-directory buffer-file-name) "/") 2))`}
+$0

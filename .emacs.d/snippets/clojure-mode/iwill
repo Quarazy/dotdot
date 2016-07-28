@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: om/IWillMount
+# key: iwill
+# --
+om/IWillMount
+(will-mount [this]
+  $0)

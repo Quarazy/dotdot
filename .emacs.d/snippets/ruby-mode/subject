@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: subject
+# key: sub
+# group: capybara
+# --
+subject { $0 }

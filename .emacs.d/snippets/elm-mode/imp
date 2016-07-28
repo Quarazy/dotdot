@@ -1,0 +1,6 @@
+# -*- mode:snippet -*-
+# name: import ... exposing
+# key: imp
+# --
+import $1 exposing (${2:..})
+$0

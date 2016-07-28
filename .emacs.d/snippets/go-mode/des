@@ -1,0 +1,7 @@
+# -*- mode:snippet -*-
+# name: Describe(...)
+# key: Des
+# --
+var _ = Describe("$1", func() {
+  $0
+})

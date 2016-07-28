@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: component
+# key: com
+# --
+(om/component
+ $1)

@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: om/IRender
+# key: iren
+# --
+om/IRender
+(render [this]
+  $0)

@@ -1,0 +1,5 @@
+# -*- mode:snippet -*-
+# name: THREE.Vector3
+# key: vec3
+# --
+new THREE.Vector3(${1:0}, ${2:0}, ${3:0});

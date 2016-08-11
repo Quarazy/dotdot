@@ -241,7 +241,10 @@
 ;;flycheck
 (require 'go-flycheck)
 
-(add-hook 'before-save-hook #'gofmt-before-save)
+;; (add-hook 'before-save-hook #'gofmt-before-save)
+
+(setq gofmt-command "goimports")
+(add-hook 'before-save-hook 'gofmt-before-save)
 
 ;; Elm mode
 (add-to-list 'load-path "~/.emacs.d/elm-mode")

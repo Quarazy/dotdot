@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: if .. == nil
+# key: ifnil
+# --
+if $1 == nil {
+  $0
+}

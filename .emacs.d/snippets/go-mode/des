@@ -2,6 +2,6 @@
 # name: Describe(...)
 # key: Des
 # --
-var _ = Describe("$1", func() {
+Describe("$1", func() {
   $0
 })

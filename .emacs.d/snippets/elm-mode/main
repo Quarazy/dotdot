@@ -1,0 +1,11 @@
+# -*- mode:snippet -*-
+# name: main
+# key: main
+# --
+main =
+  Html.program
+      { init = init
+      , view = view
+      , update = update
+      , subscriptions = subscriptions
+      }

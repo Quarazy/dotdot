@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: ffi
+# key: ffi
+# --
+{-# LANGUAGE ForeignFunctionInterface #-}

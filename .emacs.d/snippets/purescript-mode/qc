@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: quickCheck
+# key: qc
+# --
+quickCheck \\$1 -> $0

@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: imports
+# key: iq
+# --
+import qualified ${1:Module} as ${2:Qualified}

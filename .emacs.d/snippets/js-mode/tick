@@ -1,0 +1,8 @@
+# -*- mode:snippet -*-
+# name: Vue.nextTick
+# key: tick
+# --
+Vue.nextTick(() => {
+  $0
+  done()
+})

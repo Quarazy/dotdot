@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: shortdoc
+# key: dd
+# --
+"""$0"""

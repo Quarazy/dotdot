@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: async
+# key: ay
+# --
+async $0

@@ -2,5 +2,7 @@
 # name: module
 # key: mod
 # --
-module ${1:Module} where
+module ${1:`(let* ((file-path (file-name-sans-extension (or (buffer-file-name) (buffer-name))))
+      (parts (split-string file-path "/")))
+      (s-join "." (-drop 1 (--drop-while (not (string= "src" it)) parts))))`} where
 $0

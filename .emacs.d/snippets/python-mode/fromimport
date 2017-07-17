@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: fromimport
+# key: fri
+# group : general
+# --
+from ${1:} import ${2:}

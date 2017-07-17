@@ -2,6 +2,6 @@
 # name: func (..) name ...
 # key: sfun
 # --
-func ($1 *$2) ${3:name}(${4:}) $5 {
+func ($1 *$2) ${3:name}(${4:}) ${5: }{
   $0
 }

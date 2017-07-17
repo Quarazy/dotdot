@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: common imports
+# key: imps
+# --
+import math
+import random
+from time import time
+from operator import is_not, attrgetter, itemgetter
+from functools import partial
+from collections import defaultdict, namedtuple, deque

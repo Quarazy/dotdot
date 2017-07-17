@@ -3,12 +3,11 @@
 # key: dec
 # group : definitions
 # --
-def ${1:decorator}(func):
-    $2
-    def _$1(*args, **kwargs):
-        $3
-        ret = func(*args, **kwargs)
-        $4
-        return ret
+def ${1:decorator}(f):
+  def wrapper(*args, **kwargs):
+    $3
+    ret = f(*args, **kwargs)
+    $4
+    return ret
 
-    return _$1
+  return wrapper

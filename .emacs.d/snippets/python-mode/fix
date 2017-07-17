@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: fixture
+# key: fix
+# --
+@pytest.fixture
+def ${1:fixture_name}(${2:}):
+  $0

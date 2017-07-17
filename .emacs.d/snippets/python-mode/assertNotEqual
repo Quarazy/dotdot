@@ -3,4 +3,4 @@
 # key: ane
 # group: testing
 # --
-self.assertNotEqual($1, $2)
+assert $1 != $2

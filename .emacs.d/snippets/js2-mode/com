@@ -1,0 +1,7 @@
+# -*- mode:snippet -*-
+# name: Vue.Component
+# key: vcom
+# --
+Vue.component('${1:name}', {
+  template: $0
+});

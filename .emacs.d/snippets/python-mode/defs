@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: def ...(self, ...)
+# key: sdef
+# --
+def ${1:function}(self${2:}):
+  $0

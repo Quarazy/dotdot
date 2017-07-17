@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: haddock
+# key: hd
+# expand-env: ((yas-indent-line 'fixed))
+# --
+-- |
+$0

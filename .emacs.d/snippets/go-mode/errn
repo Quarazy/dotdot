@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: errors.New
+# key: errn
+# --
+errors.New($1)

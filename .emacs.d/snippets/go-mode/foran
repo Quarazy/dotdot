@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: for .. range {}
+# key: foran
+# --
+for $1 := range $2 {
+       $0
+}

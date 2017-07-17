@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: foreign import
+# key: fic
+# expand-env: ((yas-indent-line 'fixed))
+# --
+foreign import ccall ${1:safe} "$2 $3"
+  c_$3 :: $0

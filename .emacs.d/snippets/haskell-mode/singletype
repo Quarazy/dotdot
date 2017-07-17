@@ -1,0 +1,7 @@
+# -*- mode: snippet -*-
+# name: singletype
+# key: dt
+# --
+data ${1:Type} =
+  $1 {$0
+  }

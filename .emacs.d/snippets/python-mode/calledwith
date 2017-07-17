@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: assert_called_with
+# key: called
+# --
+assert_called_with($0)

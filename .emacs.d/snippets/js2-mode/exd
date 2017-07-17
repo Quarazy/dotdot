@@ -1,0 +1,5 @@
+# -*- mode:snippet -*-
+# name: expect deep
+# key: exd
+# --
+expect($1).to.deep.equal($2)

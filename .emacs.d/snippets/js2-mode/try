@@ -1,0 +1,9 @@
+# -*- mode:snippet -*-
+# name: trycatch
+# key: try
+# --
+try {
+  $1
+} catch (e) {
+  $2
+}

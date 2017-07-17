@@ -1,0 +1,9 @@
+# -*- mode:snippet -*-
+# name: export default
+# key: exp
+# --
+<script>
+export default {
+  name: '${1:name}'
+}
+</script>

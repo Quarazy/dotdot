@@ -114,6 +114,8 @@
  live-load-pack-dir nil
  live-disable-zone nil)
 
+(load-file (concat live-custom-dir "env.el"))
+
 ;; create tmp dirs if necessary
 (make-directory live-etc-dir t)
 (make-directory live-tmp-dir t)
@@ -219,6 +221,8 @@
    t)
   (package-initialize))
 
+;; My packages
+(add-to-list 'load-path "~/.emacs.d/packages")
 
 ;; Find File in project
 (autoload 'find-file-in-project "find-file-in-project" nil t)
@@ -250,6 +254,24 @@
 (add-to-list 'load-path "~/.emacs.d/elm-mode")
 (require 'elm-mode)
 
+;; Haskell mode
+(require 'haskell)
+(require 'flycheck)
+(require 'flycheck-haskell)
+(require 'hindent)
+;;(setq haskell-font-lock-symbols t)
+(setq haskell-process-type 'stack-ghci)
+(setq haskell-process-path-stack "stack")
+(setq haskell-process-path-ghci "stack")
+(setq haskell-process-args-ghci "ghci")
+
+(add-hook 'haskell-mode-hook #'hindent-mode)
+(setq hindent-style "johan-tibell")
+(setq hindent-reformat-buffer-on-save nil)
+
+(add-hook 'haskell-mode-hook 'flycheck-mode)
+
+
 ;; Javascript
 (setq js-indent-level 2)
 (setq-default js2-basic-offset 2)
@@ -280,3 +302,16 @@
                      (sql-user "root")
                      (sql-password "")
                      (sql-database "reputedly_development"))))
+
+;; Custom commands
+;;(global-set-key "\C-c\C-d" "\C-a\C- \C-n\M-w\C-y")
+(defun duplicate-line()
+  (interactive)
+  (move-beginning-of-line 1)
+  (kill-line)
+  (yank)
+  (open-line 1)
+  (next-line 1)
+  (yank)
+)
+(global-set-key (kbd "C-c C-d") 'duplicate-line)

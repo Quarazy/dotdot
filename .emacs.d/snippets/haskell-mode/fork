@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: forkIO
+# key: fork
+# --
+forkIO $ do
+  $0

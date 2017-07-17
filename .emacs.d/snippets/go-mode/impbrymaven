@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+# name: github.com/brymaven/...
+# key: brymaven
+# --
+"github.com/brymaven/$1"

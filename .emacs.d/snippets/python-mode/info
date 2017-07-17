@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+# name: info
+# key: nf
+# group: logging
+# --
+logger.info($0)

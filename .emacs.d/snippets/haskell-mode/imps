@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: imports
-# key: imps
+# name: import(
+# key: i(
 # --
 import ${1:Module} (${2:symbols})

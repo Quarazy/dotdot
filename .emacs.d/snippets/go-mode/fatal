@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-# name: log.Fatal
+# name: log.Fatalf
 # key: fatal
 # --
-log.Fatal($0)
+log.Fatalf("$1 %v", err)
